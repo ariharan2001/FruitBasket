@@ -23,7 +23,7 @@
       "mobile": "g-8883837",
       "address": {
         "firstLine": "34A RST street",
-        "secondLine": "srt road",
+        "secondLine": "st road",
         "district": "velore",
         "pincode": "939338"
       }
@@ -168,7 +168,7 @@
       "img": "apple2.jpg",
       "price": 300,
       "stock": true,
-      "volume": 1000
+      "volume": 999
     },
     {
       "id": "2",
@@ -176,7 +176,7 @@
       "img": "banana3.jpg",
       "price": 125,
       "stock": true,
-      "volume": 1000
+      "volume": 999
     },
     {
       "id": "3",
@@ -184,7 +184,7 @@
       "img": "mango3.jpg",
       "price": 210,
       "stock": true,
-      "volume": 1000
+      "volume": 999
     },
     {
       "id": "4",
@@ -216,7 +216,7 @@
       "img": "papaya2.jpg",
       "price": 60,
       "stock": true,
-      "volume": 1000
+      "volume": 998
     },
     {
       "id": "8",
@@ -531,7 +531,7 @@
         "deliveryCharge": 50,
         "grandTotal": 320
       },
-      "status": "order-dispatched",
+      "status": "order-delivered",
       "shipperId": "s-100"
     },
     {
@@ -609,7 +609,8 @@
         "deliveryCharge": 50,
         "grandTotal": 320
       },
-      "status": "order-placed"
+      "status": "order-accepted",
+      "shipperId": "s-100"
     },
     {
       "id": "b860",
@@ -627,6 +628,207 @@
         "total": 60,
         "deliveryCharge": 50,
         "grandTotal": 110
+      },
+      "status": "order-accepted",
+      "shipperId": "s-100"
+    },
+    {
+      "id": "1fcf",
+      "userId": "102",
+      "date": "2025-07-22T16:01:20.691Z",
+      "fruitsList": [
+        {
+          "id": "1",
+          "name": "apple",
+          "quantity": 1,
+          "price": 300
+        }
+      ],
+      "price": {
+        "total": 300,
+        "deliveryCharge": 50,
+        "grandTotal": 350
+      },
+      "status": "order-accepted",
+      "shipperId": "s-100"
+    },
+    {
+      "id": "19ca",
+      "userId": "102",
+      "date": "2025-07-22T16:02:40.284Z",
+      "fruitsList": [
+        {
+          "id": "1",
+          "name": "apple",
+          "quantity": 1,
+          "price": 300
+        }
+      ],
+      "price": {
+        "total": 300,
+        "deliveryCharge": 50,
+        "grandTotal": 350
+      },
+      "status": "order-delivered",
+      "shipperId": "s-100"
+    },
+    {
+      "id": "f552",
+      "userId": "002",
+      "date": "2025-07-22T16:21:46.133Z",
+      "fruitsList": [
+        {
+          "id": "7",
+          "name": "papaya",
+          "quantity": 1,
+          "price": 60
+        }
+      ],
+      "price": {
+        "total": 60,
+        "deliveryCharge": 50,
+        "grandTotal": 110
+      },
+      "status": "order-delivered",
+      "shipperId": "s-105"
+    },
+    {
+      "id": "c429",
+      "userId": "002",
+      "date": "2025-07-22T16:22:27.089Z",
+      "fruitsList": [
+        {
+          "id": "2",
+          "name": "banana",
+          "quantity": 1,
+          "price": 125
+        }
+      ],
+      "price": {
+        "total": 125,
+        "deliveryCharge": 50,
+        "grandTotal": 175
+      },
+      "status": "order-canceled"
+    },
+    {
+      "id": "451c",
+      "userId": "002",
+      "date": "2025-07-22T16:24:12.952Z",
+      "fruitsList": [
+        {
+          "id": "3",
+          "name": "mango",
+          "quantity": 1,
+          "price": 210
+        }
+      ],
+      "price": {
+        "total": 210,
+        "deliveryCharge": 50,
+        "grandTotal": 260
+      },
+      "status": "order-returned",
+      "shipperId": "s-105"
+    },
+    {
+      "id": "5065",
+      "userId": "002",
+      "date": "2025-07-22T16:28:51.906Z",
+      "fruitsList": [
+        {
+          "id": "2",
+          "name": "banana",
+          "quantity": 1,
+          "price": 125
+        }
+      ],
+      "price": {
+        "total": 125,
+        "deliveryCharge": 50,
+        "grandTotal": 175
+      },
+      "status": "order-delivered",
+      "shipperId": "s-105"
+    },
+    {
+      "id": "9c3b",
+      "userId": "101",
+      "date": "2025-07-23T05:53:48.113Z",
+      "fruitsList": [
+        {
+          "id": "2",
+          "name": "banana",
+          "quantity": 1,
+          "price": 125
+        },
+        {
+          "id": "3",
+          "name": "mango",
+          "quantity": 1,
+          "price": 210
+        }
+      ],
+      "price": {
+        "total": 335,
+        "deliveryCharge": 50,
+        "grandTotal": 385
+      },
+      "status": "order-placed"
+    },
+    {
+      "id": "fa5f",
+      "userId": "101",
+      "date": "2025-07-23T05:53:53.241Z",
+      "fruitsList": [
+        {
+          "id": "4",
+          "name": "orange",
+          "quantity": 1,
+          "price": 70
+        },
+        {
+          "id": "3",
+          "name": "mango",
+          "quantity": 1,
+          "price": 210
+        },
+        {
+          "id": "5",
+          "name": "grapes",
+          "quantity": 1,
+          "price": 90
+        }
+      ],
+      "price": {
+        "total": 370,
+        "deliveryCharge": 50,
+        "grandTotal": 420
+      },
+      "status": "order-placed"
+    },
+    {
+      "id": "f5d4",
+      "userId": "101",
+      "date": "2025-07-23T05:53:55.822Z",
+      "fruitsList": [
+        {
+          "id": "6",
+          "name": "pineapple",
+          "quantity": 1,
+          "price": 120
+        },
+        {
+          "id": "5",
+          "name": "grapes",
+          "quantity": 1,
+          "price": 90
+        }
+      ],
+      "price": {
+        "total": 210,
+        "deliveryCharge": 50,
+        "grandTotal": 260
       },
       "status": "order-placed"
     }
@@ -671,6 +873,46 @@
       "date": "2025-07-21T18:04:39.257Z",
       "review": "The basket is full of fresh fruits, thanks for your good service ",
       "rating": 5
+    },
+    {
+      "id": "d43f",
+      "orderId": "5065",
+      "userId": "002",
+      "date": "2025-07-23T05:28:04.934Z",
+      "review": "HI sdkjhds dsjjhds dsjhds jdsk",
+      "rating": 3
+    },
+    {
+      "id": "6c66",
+      "orderId": "451c",
+      "userId": "002",
+      "date": "2025-07-23T05:28:16.621Z",
+      "review": "askjh dssajkgsakj sakjhsak hasjkhh askjhas",
+      "rating": 4
+    },
+    {
+      "id": "169f",
+      "orderId": "f552",
+      "userId": "002",
+      "date": "2025-07-23T05:28:25.668Z",
+      "review": "ammghas sakhkjsah asjhask ashkkasj kjjsahsah",
+      "rating": 5
+    },
+    {
+      "id": "a946",
+      "orderId": "19ca",
+      "userId": "102",
+      "date": "2025-07-23T05:28:53.257Z",
+      "review": "dskjh dskdshkjds hdskhksdh dsjhjfgkasgh",
+      "rating": 3
+    },
+    {
+      "id": "f0a4",
+      "orderId": "8c34",
+      "userId": "102",
+      "date": "2025-07-23T05:29:02.136Z",
+      "review": "dskh dskjjhdskjhds dskjhsdjkhdsjk dskjhdsj",
+      "rating": 2
     }
   ],
   "queries": [
@@ -687,6 +929,27 @@
       "userId": "102",
       "type": "general",
       "statment": "Hi i am using this application for a while good to go..."
+    },
+    {
+      "id": "151c",
+      "date": "2025-07-23T05:54:49.392Z",
+      "userId": "101",
+      "type": "complaint",
+      "statment": "I don't get response quickly "
+    },
+    {
+      "id": "a304",
+      "date": "2025-07-23T05:55:25.186Z",
+      "userId": "101",
+      "type": "complaint",
+      "statment": "I received damaged products I want refund"
+    },
+    {
+      "id": "2d01",
+      "date": "2025-07-23T05:55:57.032Z",
+      "userId": "101",
+      "type": "help",
+      "statment": "Can you please send contact no of delivery person"
     }
   ]
 }
